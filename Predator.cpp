@@ -11,5 +11,5 @@ Predator::~Predator() = default;
 
 void Predator::eat(Animal *a) {
 	health += a->getSaturity();
-	a->~Animal();
+	delete a;
 }
