@@ -4,9 +4,8 @@
 class AnimalFactory
 {
 public:
-	AnimalFactory();
-	~AnimalFactory();
-	virtual Predator* getPredator();
-	virtual Herbivore* getHerbivore();
+	~AnimalFactory() = default;
+	virtual Predator* getPredator() = 0;
+	virtual Herbivore* getHerbivore() = 0;
 };
 
