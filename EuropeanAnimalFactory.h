@@ -9,6 +9,7 @@ public:
 	EuropeanAnimalFactory();
 	~EuropeanAnimalFactory();
 	Herbivore* getHerbivore();
-	Predator* getPredator();
+	Predator* getPredator();	
+	
 };
 

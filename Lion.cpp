@@ -4,8 +4,8 @@
 
 Lion::Lion()
 {
-	health = 100;
-	saturity = 140;
+	alive = true;
+	name = "Lion";
 }
 
 

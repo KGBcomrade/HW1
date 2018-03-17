@@ -6,9 +6,10 @@ class AfricanAnimalFactory :
 	public AnimalFactory
 {
 public:
-	AfricanAnimalFactory();
 	~AfricanAnimalFactory();
+	AfricanAnimalFactory();
 	Predator* getPredator();
 	Herbivore* getHerbivore();
+	
 };
 

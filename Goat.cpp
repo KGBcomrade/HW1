@@ -4,8 +4,8 @@
 
 Goat::Goat()
 {
-	health = 65;
-	saturity = 95;
+	alive = true;
+	name = "Goat";
 }
 
 

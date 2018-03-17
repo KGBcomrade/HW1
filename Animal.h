@@ -1,11 +1,12 @@
 #pragma once
+#include <string>
+#include <iostream>
 
 class Animal {
-protected:
-	float saturity;
-	float health;
 public:
+	bool alive;
+	std::string name;
 	Animal();
 	~Animal();
-	float getSaturity();
+	void kill();
 };

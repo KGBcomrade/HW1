@@ -4,8 +4,8 @@
 
 Giraffe::Giraffe()
 {
-	health = 100;
-	saturity = 250;
+	alive = true;
+	name = "Giraffe";
 }
 
 

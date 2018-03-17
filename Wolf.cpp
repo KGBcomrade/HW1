@@ -4,8 +4,8 @@
 
 Wolf::Wolf()
 {
-	health = 95;
-	saturity = 100;
+	alive = true;
+	name = "Wolf";
 }
 
 
